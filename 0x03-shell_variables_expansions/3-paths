@@ -1,2 +1,2 @@
 #!/bin/bash
-ls: /usr/bin/ls /usr/share/man/man1/ls.1.gz 
+echo $PATH | tr ":" "\n" | wc -l  
